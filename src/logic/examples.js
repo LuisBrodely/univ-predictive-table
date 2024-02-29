@@ -1,7 +1,7 @@
 export const ExamplesCodes = [
   {
     title: "EJEMPLO",
-    code: `automata estado: 3 - 123 ; inicio: 1; aceptacion : 2123;`,
+    code: `automata estado: 4 - 321 ; inicio: 2; aceptacion : 1111;`,
   },
   {
     title: "EJEMPLO",

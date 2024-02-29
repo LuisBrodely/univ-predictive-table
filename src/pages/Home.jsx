@@ -33,7 +33,7 @@ function Home() {
         <Monaco
           beforeMount={setEditorTheme}
           width="800px"
-          height="100px"
+          height="60px"
           theme="predictiva"
           value={codigo}
           options={{
