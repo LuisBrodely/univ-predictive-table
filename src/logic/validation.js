@@ -1,4 +1,4 @@
-import { obtenerProduccion } from "./production";
+import { obtenerProduccion } from "./productions";
 
 export function validacion(codigo) {
   let pila = ["$"];
