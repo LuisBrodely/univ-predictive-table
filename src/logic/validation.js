@@ -7,11 +7,14 @@ export function validacion(codigo) {
   pila[1] = "S";
 
   const pushInfo = (X) => {
-    infoPila.push(`Push: ${X} -- ${codigo.slice(contador)}`);
+    infoPila.push(`Push: ${X} - ${codigo.slice(contador)}`);
   };
+
   const popInfo = (X) => {
-    infoPila.push(`Pop: ${X} --  ${codigo.slice(contador)}`);
+    infoPila.push(`Pop: ${X} - ${codigo.slice(contador)}`);
   };
+
+  debugger
   while (pila.length > 0) {
     const X = pila.pop();
     if (!X) {

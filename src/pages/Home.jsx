@@ -12,6 +12,7 @@ function Home() {
   const analizarCodigo = () => {
     const cadenaS = codigo.replace(/\s/g, "");
     const { esValida, infoPila } = validacion(cadenaS);
+    console.log(infoPila)
     setEsValido(esValida);
     setResul(infoPila);
   };
