@@ -29,7 +29,7 @@ function Home() {
   return (
     <main className="mx-6 my-8 flex gap-10">
       <section>
-        <h1 className=" font-medium text-4xl mb-2">Tabla Predictica</h1>
+        <h1 className=" font-medium text-4xl mb-2">Tabla Predictiva</h1>
         <p className="text-[#DCEF64] font-semibold text-xl mb-4">Gramatica 2</p>
         <Monaco
           beforeMount={setEditorTheme}

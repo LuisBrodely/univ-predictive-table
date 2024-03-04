@@ -1,6 +1,8 @@
 import { obtenerProduccion } from "./productions";
 
 export function validacion(codigo) {
+
+  debugger
   let pila = ["$"];
   let contador = 0;
   let infoPila = [];
